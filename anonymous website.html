@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>...</title>
+	<style>
+		body {
+			background-image: url("https://cdn.discordapp.com/attachments/1103763866955038731/1103780009736413274/Untitled_design_1.png");
+			background-size: cover;
+			color: white;
+			font-family: Arial, sans-serif;
+			font-size: 32px;
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		#text {
+			margin-top: 100px;
+			border-right: 2px solid white;
+			padding-right: 10px;
+			animation: typing 3s steps(30, end);
+			overflow: hidden;
+			white-space: nowrap;
+			color: green;
+		}
+		
+		@keyframes typing {
+			from {width: 0;}
+			to {width: 100%;}
+		}
+		
+		#button-container {
+			position: absolute;
+			top: 20px;
+			left: 20px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		
+		button {
+			background-color: transparent;
+			color: white;
+			border: 2px solid white;
+			padding: 10px;
+			border-radius: 5px;
+			font-size: 24px;
+			margin-top: 20px;
+			cursor: pointer;
+			transition: all 0.3s ease-in-out;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			font-weight: bold;
+			outline: none;
+			margin-bottom: 10px;
+			min-width: 200px;
+		}
+		
+		button:hover {
+			background-color: white;
+			color: black;
+			transform: scale(1.1);
+		}
+		
+		button:nth-of-type(1) {
+			border-color: #7289da;
+			background-color: #7289da;
+		}
+		
+		button:nth-of-type(2) {
+			border-color: #ed4245;
+			background-color: #ed4245;
+		}
+	</style>
+</head>
+<body>
+	<div id="button-container">
+		<a href="https://discord.gg/Sj8dV8AV82" target="_blank"><button>Z's Discord</button></a>
+		<a href="https://discord.gg/MRNgJWra7B" target="_blank"><button>Anonymous Grabber</button></a>
+	</div>
+	<div id="text">Hello, Welcome To Anonymos Grabber;)</div>
+</body>
+</html>
